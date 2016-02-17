@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="./anchorify.min.js"></script>
+
+        <title>Example</title>
+
+        <style>
+        body {
+            margin: 0 auto;
+            width: 600px;
+        }
+
+        .header-link {
+            display: inline-block;
+            margin-left: -20px;
+            padding-right: 8px;
+        }
+
+        .header-link svg {
+            visibility: hidden;
+        }
+
+        h1:hover .header-link svg,
+        h2:hover .header-link svg,
+        h3:hover .header-link svg,
+        h4:hover .header-link svg,
+        h5:hover .header-link svg,
+        h6:hover .header-link svg {
+            visibility: visible;
+        }
+        </style>
+
+        <script>
+        jQuery(window).load(function () {
+            jQuery('body').anchorify();
+        });
+        </script>
+    </head>
+    <body>
+        <h1>Heading 1</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut nibh pretium, convallis turpis a, semper ipsum. Nullam eu molestie elit. Sed sollicitudin diam vitae erat accumsan maximus. Phasellus massa urna, tempor ac tempor a, posuere quis velit. Nulla facilisi. Integer et nulla ac dolor cursus vulputate. Aliquam in elit nec lorem luctus luctus.</p>
+        <h2>Heading 2</h2>
+        <p>Cras dignissim sapien vitae turpis hendrerit, et pretium nisi pellentesque. Proin eleifend mauris enim, eget scelerisque nisl faucibus quis. Nunc mauris mi, tincidunt sit amet iaculis sit amet, efficitur ac velit. Aliquam sed quam gravida, fermentum ex ac, dapibus erat. Donec et cursus odio, sed molestie neque. Pellentesque mollis magna quis malesuada mattis. Aenean maximus ante ligula, quis condimentum mi tempor eget. Quisque ex purus, tempor non massa non, mollis posuere ligula. Nullam velit justo, viverra at metus quis, sagittis dignissim augue.</p>
+        <h3>Heading 3</h3>
+        <p>Nunc sem arcu, semper vel finibus at, tincidunt in libero. Donec porttitor purus est, at dapibus purus volutpat accumsan. Integer porta lorem et purus porttitor, id cursus neque molestie. Maecenas blandit tortor vitae libero tempus lacinia. Quisque iaculis molestie imperdiet. Praesent id consequat sem, sed consequat magna. Quisque viverra facilisis nisl. Donec eu orci sit amet est ullamcorper bibendum.</p>
+        <h4>Heading 4</h4>
+        <p>Donec eu massa imperdiet, rhoncus nulla ac, feugiat felis. Nunc scelerisque elit quis pretium facilisis. Curabitur volutpat eu risus non commodo. Sed quis enim quis dolor vulputate imperdiet. Phasellus vestibulum erat est, at posuere arcu tempus eget. Suspendisse id libero non urna congue aliquam. Praesent quis tincidunt tortor. Pellentesque elementum lacus eget tellus dignissim, lobortis ornare sem pulvinar. Ut id imperdiet nibh. Phasellus quis nisl efficitur, auctor nulla sit amet, molestie justo.</p>
+        <h5>Heading 5</h5>
+        <p>Curabitur vehicula id diam eu facilisis. Maecenas eu nisl tempor, gravida mi a, tincidunt purus. Praesent quam sem, egestas vitae augue vel, venenatis bibendum risus. Vivamus viverra tempus augue, non vestibulum tortor volutpat id. Curabitur placerat justo est, quis luctus neque imperdiet non. Morbi scelerisque mollis nulla, sit amet congue enim dictum quis. Etiam in magna ut felis accumsan gravida vel eu elit. Duis tempus egestas lectus in congue. Maecenas orci erat, lacinia quis leo vel, efficitur pharetra quam. Fusce at metus quis purus vehicula feugiat sit amet ut felis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur bibendum vitae purus a volutpat. Aenean ac risus varius nulla semper accumsan. Nunc convallis tempor sapien non blandit.</p>
+        <h6>Heading 6</h6>
+        <p>Curabitur vehicula id diam eu facilisis. Maecenas eu nisl tempor, gravida mi a, tincidunt purus. Praesent quam sem, egestas vitae augue vel, venenatis bibendum risus. Vivamus viverra tempus augue, non vestibulum tortor volutpat id. Curabitur placerat justo est, quis luctus neque imperdiet non. Morbi scelerisque mollis nulla, sit amet congue enim dictum quis. Etiam in magna ut felis accumsan gravida vel eu elit. Duis tempus egestas lectus in congue. Maecenas orci erat, lacinia quis leo vel, efficitur pharetra quam. Fusce at metus quis purus vehicula feugiat sit amet ut felis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur bibendum vitae purus a volutpat. Aenean ac risus varius nulla semper accumsan. Nunc convallis tempor sapien non blandit.</p>
+    </body>
+</html>
