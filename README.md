@@ -26,7 +26,8 @@ It will scan the element `<body>` for headings and will create anchors based on 
 
 You may have noticed that a S/CSS file is not included in this plugin. That's because there's not much to style. If you're looking to get started check out these rules from the `example.html` file.
 
-```.header-link {
+```css
+.header-link {
             display: inline-block;
             margin-left: -20px;
             padding-right: 8px;
@@ -44,7 +45,7 @@ You may have noticed that a S/CSS file is not included in this plugin. That's be
         h6:hover .header-link svg {
             visibility: visible;
         } 
-        ```
+```
 
 ## Examples
 
