@@ -22,6 +22,30 @@ jQuery(window).load(function () {
 
 It will scan the element `<body>` for headings and will create anchors based on the text of the heading.
 
+## Styling 
+
+You may have noticed that a S/CSS file is not included in this plugin. That's because there's not much to style. If you're looking to get started check out these rules from the `example.html` file.
+
+```.header-link {
+            display: inline-block;
+            margin-left: -20px;
+            padding-right: 8px;
+        }
+
+        .header-link svg {
+            visibility: hidden;
+        }
+
+        h1:hover .header-link svg,
+        h2:hover .header-link svg,
+        h3:hover .header-link svg,
+        h4:hover .header-link svg,
+        h5:hover .header-link svg,
+        h6:hover .header-link svg {
+            visibility: visible;
+        } 
+        ```
+
 ## Examples
 
 * Open the file `example.html` in your browser
