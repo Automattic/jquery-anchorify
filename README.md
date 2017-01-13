@@ -28,23 +28,23 @@ You may have noticed that a S/CSS file is not included in this plugin. That's be
 
 ```css
 .header-link {
-            display: inline-block;
-            margin-left: -20px;
-            padding-right: 8px;
-        }
+  display: inline-block;
+  margin-left: -20px;
+  padding-right: 8px;
+  }
 
-        .header-link svg {
-            visibility: hidden;
-        }
+.header-link svg {
+  visibility: hidden;
+  }
 
-        h1:hover .header-link svg,
-        h2:hover .header-link svg,
-        h3:hover .header-link svg,
-        h4:hover .header-link svg,
-        h5:hover .header-link svg,
-        h6:hover .header-link svg {
-            visibility: visible;
-        } 
+h1:hover .header-link svg,
+h2:hover .header-link svg,
+h3:hover .header-link svg,
+h4:hover .header-link svg,
+h5:hover .header-link svg,
+h6:hover .header-link svg {
+  visibility: visible;
+} 
 ```
 
 ## Examples
